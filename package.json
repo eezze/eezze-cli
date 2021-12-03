@@ -1,0 +1,15 @@
+{
+  "name": "eezze-cli",
+  "version": "1.0.0",
+  "description": "This tool will assist you in easliy creating a cli tool within 5 min. If you would like to suggest any features then please leave us some comments on our githib. Thank you",
+  "main": "index.js",
+  "author": "Ryan J. Cooke",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "command-line-args": "^5.1.1",
+    "fs": "^0.0.1-security",
+    "shelljs": "^0.8.4",
+   "stacktrace-js": "^2.0.2"
+  }
+}
