@@ -167,7 +167,9 @@ module.exports = async function (options, logger) {
 
 ### Help
 
-Every cli tool comes with a built in command that is the "help" command. This will print out all your cmd, params and usage examples.
+Every cli tool comes with a built in command that is the "-h (help)" command. This will print out all your cmd, params and usage examples.
+If you would like more out of the box functionality like "-v" for tool version output according to the project package.json etc then please put in a feature request.
+Thank you.
 
 ## Bugs and feature requests
 

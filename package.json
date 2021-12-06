@@ -5,11 +5,15 @@
   "main": "index.js",
   "author": "Ryan J. Cooke",
   "license": "MIT",
+  "scripts": {
+    "watch-build": "nodemon -e js --ignore 'dist/*.js' --exec 'node ./dev/build.js'"
+  },
   "dependencies": {
     "colors": "^1.4.0",
     "command-line-args": "^5.1.1",
     "fs": "^0.0.1-security",
+    "javascript-minifier": "^1.1.0",
     "shelljs": "^0.8.4",
-   "stacktrace-js": "^2.0.2"
+    "stacktrace-js": "^2.0.2"
   }
 }
