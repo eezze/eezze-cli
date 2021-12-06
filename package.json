@@ -13,7 +13,6 @@
     "colors": "^1.4.0",
     "command-line-args": "^5.1.1",
     "fs": "^0.0.1-security",
-    "javascript-minifier": "^1.1.0",
     "shelljs": "^0.8.4",
     "stacktrace-js": "^2.0.2"
   }
