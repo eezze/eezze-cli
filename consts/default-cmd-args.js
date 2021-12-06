@@ -1,0 +1,1 @@
+module.exports=[{name:"command",defaultOption:!0},{name:"help",alias:"h",defaultValue:"helpme"},{name:"version",alias:"v"}];
