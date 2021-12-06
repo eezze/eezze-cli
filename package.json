@@ -6,7 +6,7 @@
   "author": "Ryan J. Cooke",
   "license": "MIT",
   "bin": {
-    "ecli": "./ezze-cli.js"
+    "eezze": "./ezze-cli.js"
   },
   "scripts": {
     "build": "node ./dev/build.js",
