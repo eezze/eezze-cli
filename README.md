@@ -68,15 +68,15 @@ console.clear();
 
 **index.js Options**
 
- - doLogging: Boolan, Default "true" - This setting controls the logging output. If set to false then all the default logging in the framework will be turned off other than the following: 
+ - **doLogging**: Boolan, Default "true" - This setting controls the logging output. If set to false then all the default logging in the framework will be turned off other than the following: 
    - Criticals - These are critical errors that will cause the tool to work incorrectly
    - Operational warnings - These are instances when the user hasn't create a dependancy in a particular location etc.
 
- - doLoggingExtraSpacing:, Default "true" - This controls the default logger extra spacing, indenting and extra lines. If set to false then all but one line will be ignored and the extra indentation will also be ignored.
+ - **doLoggingExtraSpacing**:, Default "true" - This controls the default logger extra spacing, indenting and extra lines. If set to false then all but one line will be ignored and the extra indentation will also be ignored.
 
- - cmdRoot: String, Default "cmds": This value controlls the root of the folder which compiles all the available cmds in the clients program / CLI tool.
+ - **cmdRoot**: String, Default "cmds": This value controlls the root of the folder which compiles all the available cmds in the clients program / CLI tool.
 
- - ignoreRoutes: Array<String> (string[]), Default: [] - All file paths in this array will be ignored in the "{{ cmdRoot }}" folder. If you would like to ignore a folder then an entry including the whole path is required. For eg. "cmds/path/folder" all files would be ignored from that folder.
+ - **ignoreRoutes**: Array<String> (string[]), Default: [] - All file paths in this array will be ignored in the "{{ cmdRoot }}" folder. If you would like to ignore a folder then an entry including the whole path is required. For eg. "cmds/path/folder" all files would be ignored from that folder.
 
 **package.json**
 Then add an entry into the "bin" section of your package.json.

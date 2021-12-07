@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Ryan J. Cooke",
   "license": "MIT",
-  "bin": "./ezze-cli.js",
+  "bin": "./eezze-cli.js",
   "scripts": {
     "build": "node ./dev/build.js",
     "watch-build": "nodemon -e js --ignore 'dist/*.js' --exec 'node ./dev/build.js'"
