@@ -1,1 +1,1 @@
-module.exports=[{name:"command",defaultOption:true},{name:"help",alias:"h",defaultValue:"helpme"},{name:"version",alias:"v"}];
+module.exports=[{name:"command",defaultOption:true},{name:"help",alias:"h",defaultValue:"helpme"},{name:"version",alias:"V"}];
